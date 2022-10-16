@@ -34,6 +34,7 @@ import com.java.workout.classes.Singleton;
 public class core_java {
 	static String fileSeparator = File.separator;
 	static String path = System.getProperty("user.dir") + fileSeparator +"src"+ fileSeparator +"main"+ fileSeparator +"java"+ fileSeparator +"com"+ fileSeparator +"java"+ fileSeparator +"workout"+ fileSeparator +"testfile.txt";
+	
 	public static void main(String [] args) throws Exception
 	{
 		System.out.println("----------Recursive call to print 1 to 10----------");
