@@ -38,7 +38,7 @@ import com.java.workout.designpattern.Employee;
 import com.java.workout.designpattern.Singleton;
 
 
-public class CoreJava {
+public class CoreJavaWorkout {
 	static String fileSeparator = File.separator;
 	static String path = System.getProperty("user.dir") + fileSeparator +"src"+ fileSeparator +"main"+ fileSeparator +"java"+ fileSeparator +"com"+ fileSeparator +"java"+ fileSeparator +"workout"+ fileSeparator +"testfile.txt";
 

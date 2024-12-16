@@ -21,7 +21,7 @@ import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class MyWorkout {
+public class Java8Workout {
 
 	public static void main(String[] args) {
 
