@@ -1,4 +1,4 @@
-package com.java.workout.classes;
+package com.java.workout.designpattern;
 
 import java.util.Objects;
 
@@ -69,3 +69,4 @@ public class Employee {
 	}
 	
 }
+

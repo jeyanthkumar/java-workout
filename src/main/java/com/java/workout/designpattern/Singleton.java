@@ -1,5 +1,11 @@
-package com.java.workout.classes;
+package com.java.workout.designpattern;
 
+/**
+ * 
+ * @author Jeyanthkumar_S
+ * Creational design pattern => Singleton design pattern
+ *
+ */
 public class Singleton {
 
 	private static Employee emp; //Lazy loading

@@ -1,7 +1,7 @@
 package com.java.workout;
 import java.io.*;
 
-class workout { 
+class Workout { 
 	static int a= 0;
 	static {
 		System.out.println("Static block invoked !!!"+a);
@@ -16,7 +16,7 @@ class workout {
 
 	// Constructor 1
 	// Default constructor
-	workout()
+	Workout()
 	{
 
 		// Print statement
@@ -25,7 +25,7 @@ class workout {
 
 	// Constructor 2
 	// Parameterized constructor
-	workout(int x)
+	Workout(int x)
 	{
 
 		// Print statement
@@ -41,24 +41,24 @@ class workout {
 		return 5;
 	}
 	// Main driver method
-	public static String main(Integer arr[])
+	public static void main(Integer arr[])
 	{
 		System.out.println("Inside integer main array...");
-		return "jeyanth";
+//		return "jeyanth";
 	}
-	public static void main(String arr[])
+	public static void main(String ar1r[])
 	{
 		// Creating variables of class type
-		workout obj1, obj2;
+		Workout obj1, obj2;
 
 		// Now these variables are
 		// made to object and interpreted by compiler
-		obj1 = new workout();
+		obj1 = new Workout();
 
 		testInterface testInt = ()->0;
 		testInt.readFile("J:\\Projects\\Java\\workout\\java-workout\\src\\main\\resources\\application.properties");
-		testInt = workout::testReturnInt;
-		obj2 = new workout(testInt.abstract_method());
+		testInt = Workout::testReturnInt;
+		obj2 = new Workout(testInt.abstract_method());
 		GFG ob = new GFG();
 		String[] arr1 = {"ad","ak"};
 		ob.main(arr1);
@@ -138,7 +138,7 @@ class GFG {
 	// Main driver method
 	public static void main(String arr[])
 	{
-		System.out.println(arr[0]);
+//		System.out.println(arr[0]);
 		// Creating variables of class type
 		GFG obj1, obj2;
 

@@ -98,8 +98,7 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return "Book [id=" + id + ", bookName=" + bookName + ", authorName=" + authorName + ", publishDate="
-				+ publishDate + ", noOfBooks=" + noOfBooks + ", taggedUserList=" + taggedUserList + "]";
+		return "{\"id\":\""+id+"\", \"bookName\": \""+bookName+"\", \"authorName\": \""+authorName+"\", \"publishDate\": \""+publishDate+"\", \"noOfBooks\": \""+noOfBooks+"\", \"taggedUserList\": \""+taggedUserList+"\"}";
 	}
 	
 	

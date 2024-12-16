@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import com.google.gson.JsonArray;
+
 /**
  * 
  * @author jeyanthkumar
@@ -47,7 +52,8 @@ public class Starter {
 
 			System.out.println("Books details...");
 			System.out.println("Number of available books: "+books.stream().map(b->b.noOfBooks).reduce(0, Integer::sum));
-			System.out.println(books);
+			System.out.println(books.toString());
+			System.out.println(new JSONArray(books.toString()).toString(4));
 
 			Scanner sc= new Scanner(System.in);
 			System.out.print("Do you Want to add book enter(yes/no): ");
